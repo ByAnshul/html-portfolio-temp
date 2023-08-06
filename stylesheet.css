@@ -1,0 +1,192 @@
+#home{
+    background-image: url("./images/back-font.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#home h1{
+    margin: 0;
+    text-align: center;
+    color: aliceblue;
+    font-size: 8rem;
+    font-family: 'Sacramento', cursive;;
+   
+
+}
+
+#home  h3{
+    margin-top:15%;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+#About{
+    background-color: #9ED2BE;
+    display: block;
+}
+
+.second{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 20px;
+    padding-top: 7rem;
+    padding-bottom: 8rem;
+    
+}
+#About h2{
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    color: #862B0D;
+}
+
+#About img{
+    display: flex;
+    align-items: center;
+    grid-row-start:span 2 ;
+    border-radius: 50%;
+     
+}
+
+#About p{
+    font-size: large;    
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Experience{
+    background-color: #C8E4B2;
+}
+
+.Skills{
+    display: grid;
+    grid-template-rows: 1fr  ;
+    grid-template-columns: 1.5fr 1fr;
+    margin: 0;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+
+
+}
+
+.Skills > h2{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: #000;
+    padding-bottom: 20px;
+    grid-row-start: span 2;
+
+}
+@media(max-width:700px){
+    .Skills > h2{
+        grid-row-start: span 1;
+    }
+}
+
+
+.ASkills > h3{
+    margin-bottom: 20px;
+}
+.skills-line{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    line-height: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#projects{
+
+
+}
+.work{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+@media (max-width: 768px) {
+    .work {
+      grid-template-columns: 1fr; 
+    }
+  }
+
+.Myprojects h2{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    padding: 5rem 0 2rem 0;
+}
+
+.Myprojects  img{
+    width: 300px;
+    height: 165px;
+    border: 6px dotted rgb(185, 51, 51) ;
+    padding: 0.5rem}
+
+.showcase {
+    background: linear-gradient(300deg, #f4e47e, #0de338, #e48578);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    padding-bottom: 5rem;
+}
+
+.Project-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    
+
+}
+
+.Project-1 h3{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-decoration:underline;
+    padding: 1rem;
+}
+
+#Contact{
+    background-color: #45CFDD;
+
+
+}
+
+.contactme{
+    background-color: #45CFDD;
+
+
+
+}
+
+.contactme h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem ;
+    font-size: 1.5rem;
+    
+}
+.contactme a{
+    display: flex;
+    justify-content: center;
+    
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+}
+
+.contactme p{
+    display: flex;
+    justify-content: end;
+}
+.contactme img{
+    border-radius: 25%;
+}
